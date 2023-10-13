@@ -22,11 +22,35 @@ header {
     list-style-type: none;
     border: 3px solid blue;
     color: white;
+
     font-weight: bold;
+    width: 50px;
+    min-width: 100%;
+
+    background-color: blueviolet;
+    border-radius: 5px;
+    text-align: center;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+    margin: 10px 10px 10px 10px;
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+}
+
+.navLink:hover {
+    background-color: white;
+    color: blue;
 }
 
 @media screen and (min-width: 768px) {
 
-    .navLink{
-        font-weight: lighter} 
+    .navLink {
+        font-weight: lighter
+    }
 }
